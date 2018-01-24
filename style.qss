@@ -1,0 +1,45 @@
+QPushButton {
+	/*background-color: white;*/
+	border-radius:20px;
+	max-width:40px;
+	max-height:40px;
+	min-width:40px;
+	min-height:40px;
+	/*padding-left: 5px; 
+	padding-right: 3px;
+	padding-top: 1px; 
+	padding-bottom: 1px;*/
+}
+
+QPushButton:pressed{ 
+	background-color: #B0BEC5; 
+}
+
+#rotateR {
+    image: url(photos/cw.png);
+}
+#undo {
+    image: url(photos/undo.png);
+}
+#redo {
+    image: url(photos/redo.png);
+}
+#rotatel {
+    image: url(photos/ccw.png);
+}
+#crop {
+    image: url(photos/crop.png);
+}
+#flib {
+    image: url(photos/flip.png);
+}
+#zoomin{
+    image: url(photos/in.png);
+}
+#zoomout {
+    image: url(photos/out.png);
+}
+
+#reset {
+    image: url(photos/reset.png);
+}
